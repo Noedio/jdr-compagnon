@@ -2,14 +2,13 @@
 window.JDR_SITE = {
   "product": "JDR Compagnon",
   "publisher": "Yoann",
-  "owner": "Creusky2",
+  "owner": "Noedio",
   "repo": "jdr-compagnon",
   "supportEmail": "creusky@hotmail.com",
   "requestUrl": "",
-  "version": "3.12.0",
+  "version": "3.13.0",
   "news": [
-    "Palier d’ambiance par scène et par étape (calme ou tension), appliqué en la lançant ; le combat passe en tension, puis tout revient comme avant.",
-    "Table sans écrans (Réglages › Table) : les téléphones des joueurs gardent la fiche, les dés et le carnet, sans scène, ni carte, ni dés 3D.",
-    "Liens [[…]] vers le carnet dans les étapes du scénario, les documents et la chronique : un toucher ouvre la fiche."
+    "Retours à l’éditeur : joignez jusqu’à trois images (capture d’écran ou photo, Ctrl+V sur PC), réduites avant l’envoi ; le retour devient aussitôt un ticket chez l’éditeur.",
+    "Nouvelle adresse du site et des téléchargements : https://noedio.github.io/jdr-compagnon/ (l’ancienne renvoie vers la nouvelle ; les mises à jour continuent d’arriver toutes seules)."
   ]
 };

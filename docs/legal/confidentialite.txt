@@ -30,10 +30,14 @@ CE QUI PASSE PAR INTERNET
   saisissez, qui l'a écrit (MJ ou joueur, jamais son nom), la version, l'édition, le numéro de
   licence (édition Pro), l'identifiant d'installation tiré au hasard ; si la case « informations
   techniques » est cochée, le système, l'appareil et les dernières erreurs de l'application (dossiers
-  personnels masqués). Envoyés par l'application du MJ à la feuille de calcul Google de l'Éditeur
-  (via Google Apps Script), puis gardés dans un ticket de son dépôt privé GitHub. L'état de chaque
-  retour et la réponse courte de l'Éditeur sont publiés sur GitHub sous un numéro tiré au hasard,
-  sans le texte du retour, et relus par l'application qui l'a envoyé.
+  personnels masqués) ; les images que vous joignez (3 au plus, réduites sur l'appareil, sans leurs
+  métadonnées). Envoyés par l'application du MJ au relais de l'Éditeur (Cloudflare Workers, qui voit
+  l'adresse IP de la connexion et garde quelques jours un compteur par adresse et par installation
+  contre les envois en rafale), qui en fait aussitôt un ticket de son dépôt privé GitHub, images
+  comprises ; les anciennes versions passent par la feuille de calcul Google de l'Éditeur (via
+  Google Apps Script), sans images. L'état de chaque retour et la réponse courte de l'Éditeur sont
+  publiés sur GitHub sous un numéro tiré au hasard, sans le texte du retour ni les images, et relus
+  par l'application qui l'a envoyé.
 - Assistant IA (édition Pro, facultatif) : seulement si vous le réglez et seulement quand vous lui
   demandez quelque chose. Vous choisissez le service : Google Gemini (clé avec facturation
   activée ; service réservé aux personnes majeures selon les conditions de Google), un service
@@ -72,4 +76,4 @@ Vous disposez d'un droit d'accès, de rectification et d'effacement des informat
 détient (licence, échanges avec le support) : creusky@hotmail.com. Vous
 pouvez saisir la CNIL (www.cnil.fr).
 
-Version : 1.0 — octobre 2026.
+Version : 1.1 — octobre 2026.
