@@ -4,7 +4,7 @@ window.JDR_SITE = {
   "publisher": "Yoann",
   "owner": "Noedio",
   "repo": "jdr-compagnon",
-  "supportEmail": "creusky@hotmail.com",
+  "supportEmail": "services@noedio.fr",
   "requestUrl": "",
   "version": "3.13.0",
   "news": [
