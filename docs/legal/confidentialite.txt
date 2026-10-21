@@ -50,7 +50,8 @@ CE QUI PASSE PAR INTERNET
   propres conditions. Les textes produits sont marqués « généré par IA ». La clé reste sur votre
   ordinateur.
 - Enregistrement de la séance (édition Pro, facultatif) : le micro du PC du MJ n'enregistre
-  qu'après l'accord de chaque joueur connecté, donné sur son téléphone ; un voyant reste affiché
+  qu'après l'accord de chaque joueur connecté, donné sur son téléphone, et la confirmation du MJ
+  que toutes les personnes présentes, même sans téléphone, l'acceptent ; un voyant reste affiché
   chez tous et un refus arrête l'enregistrement. L'audio reste sur le PC et n'est envoyé qu'au
   service d'IA choisi, au moment du résumé, puis il est effacé (et à chaque démarrage de
   l'application). Pour un mineur, l'accord d'un parent est nécessaire.
