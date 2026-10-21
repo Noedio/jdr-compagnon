@@ -7,7 +7,8 @@ CE QUI RESTE SUR VOTRE ORDINATEUR
 Campagnes, fiches des personnages, prénoms des joueurs, notes, cartes, images, sons, journaux de
 fonctionnement et copies de sécurité sont enregistrés dans le dossier de données de l'application
 (%APPDATA%\JDR Compagnon). Les téléphones des joueurs se connectent directement à votre ordinateur
-par le wifi ; ils ne gardent que leur identifiant de joueur et leurs préférences d'affichage.
+par le wifi ; ils ne gardent que leur identifiant de joueur (dans le navigateur, et dans un cookie
+réservé au PC de la table, pour retrouver sa place) et leurs préférences d'affichage.
 Le maître du jeu est responsable des informations qu'il saisit sur ses joueurs.
 
 CE QUI PASSE PAR INTERNET
@@ -54,10 +55,40 @@ CE QUI PASSE PAR INTERNET
   service d'IA choisi, au moment du résumé, puis il est effacé (et à chaque démarrage de
   l'application). Pour un mineur, l'accord d'un parent est nécessaire.
 - Copie dans un dossier synchronisé (facultatif) : si vous choisissez un dossier OneDrive, Google
-  Drive ou Dropbox, une sauvegarde complète de la table y est copiée chaque jour ; votre service de
-  synchronisation l'envoie ensuite selon ses conditions.
+  Drive ou Dropbox, les données de la table y sont copiées chaque jour, et les images et sons un par
+  un ; votre service de synchronisation les envoie ensuite selon ses conditions.
 - Bibliothèque 3D (facultatif) : téléchargement de modèles depuis GitHub.
 - Jeu à distance (édition Pro, facultatif) : passe par Tailscale, selon ses conditions.
+
+QUI TRAITE CES INFORMATIONS, ET OÙ
+L'Éditeur (voir « Vos droits ») est responsable des informations qu'il reçoit : activations,
+retours, échanges avec le support, licences. Il s'appuie sur trois prestataires, situés aux
+États-Unis : GitHub, Inc. (mises à jour, annonces, tickets des retours), Cloudflare, Inc. (relais des
+retours) et Google LLC (feuille des activations et des retours des anciennes versions). Ces
+transferts hors de l'Union européenne sont encadrés par le cadre de protection des données UE –
+États-Unis (Data Privacy Framework), auquel ces sociétés adhèrent, et par leurs clauses
+contractuelles types. Les services que vous choisissez vous-même (assistant IA, dossier synchronisé,
+Tailscale) agissent selon leurs propres conditions, entre eux et vous.
+
+POURQUOI (BASES LÉGALES)
+- Activation d'une licence et liste des clés désactivées : exécution du contrat de licence, et
+  intérêt légitime de l'Éditeur à repérer les clés copiées ou frauduleuses.
+- Retours, rapport de diagnostic, support : votre demande ; rien n'est envoyé si vous n'écrivez
+  pas.
+- Mises à jour et annonces : intérêt légitime à garder l'application sûre et à jour ; aucune
+  information sur vous n'est envoyée.
+
+COMBIEN DE TEMPS
+- Activations : tant que la licence existe, puis un an.
+- Retours : les images jointes sont effacées un an après la clôture du retour, le texte trois ans
+  après (seuls restent son numéro et son état). Plus tôt sur simple demande.
+- Compteurs du relais contre les envois en rafale : deux jours au plus.
+- Échanges avec le support et rapports de diagnostic : trois mois après la clôture de la demande.
+
+MINEURS
+L'application ne demande ni âge ni identité. Un joueur, même mineur, peut envoyer un retour : il
+n'est jamais nominatif, mais ne joignez pas de photo d'une personne. L'enregistrement de la séance
+demande l'accord d'un parent pour un mineur (voir plus haut).
 
 RAPPORT DE DIAGNOSTIC
 Le bouton « Créer un rapport de diagnostic » enregistre un fichier sur votre ordinateur : version,
@@ -72,8 +103,9 @@ d'achat, le temps nécessaire à la gestion de la licence et aux obligations com
 elle-même ne contient que votre nom, son numéro et ses dates (pas votre adresse électronique).
 
 VOS DROITS
-Vous disposez d'un droit d'accès, de rectification et d'effacement des informations que l'Éditeur
-détient (licence, échanges avec le support) : services@noedio.fr. Vous
-pouvez saisir la CNIL (www.cnil.fr).
+Vous disposez d'un droit d'accès, de rectification, d'effacement, d'opposition, de limitation et de
+portabilité des informations que l'Éditeur détient (licence, activations, retours, échanges avec le
+support) : écrivez à services@noedio.fr, avec le numéro de votre licence ou de votre retour si vous
+l'avez ; réponse sous un mois. Vous pouvez aussi saisir la CNIL (www.cnil.fr).
 
-Version : 1.1 — octobre 2026.
+Version : 1.2 — octobre 2026.
