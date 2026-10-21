@@ -4,6 +4,6 @@ Application de table pour le maître du jeu et les joueurs (téléphones sur le 
 
 ## Télécharger
 
-[**Dernière version pour Windows**](https://github.com/Creusky2/jdr-compagnon/releases/latest) : choisissez « JDR-Compagnon-Setup-….exe ».
+[**Dernière version pour Windows**](https://github.com/Noedio/jdr-compagnon/releases/latest) : choisissez « JDR-Compagnon-Setup-….exe ».
 
 L'application se met ensuite à jour toute seule.
