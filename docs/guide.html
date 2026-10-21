@@ -54,7 +54,7 @@
           <h2>Installer et démarrer</h2>
           <article>
             <h3>Installation</h3>
-            <p>Lancez « JDR-Compagnon-Setup-x.y.z.exe ». Si Windows affiche SmartScreen : <strong>Informations complémentaires</strong> › <strong>Exécuter quand même</strong>. Les versions suivantes s’installent seules (Réglages › Aide › Mises à jour : automatique, canal stable ou bêta). La version « portable » ne se met pas à jour seule.</p>
+            <p>Lancez « JDR-Compagnon-Setup-x.y.z.exe ». Si Windows affiche SmartScreen : <strong>Informations complémentaires</strong> › <strong>Exécuter quand même</strong>. Les versions suivantes s’installent seules (Réglages › Aide › Mises à jour : automatique, canal stable ou bêta ; en pleine partie, « Installer et redémarrer » demande confirmation). La version « portable » ne se met pas à jour seule.</p>
           </article>
           <article>
             <h3>Pare-feu de Windows</h3>
@@ -74,7 +74,7 @@
           <article>
             <h3>Le QR code</h3>
             <p>Onglet <strong>Joueurs</strong> : chaque joueur scanne le QR code avec l’appareil photo de son téléphone, entre son prénom et arrive à la table. Le QR affiche le <strong>nom du wifi</strong> à rejoindre : le téléphone doit être sur le même réseau que le PC du MJ.</p>
-            <p>Sous le QR, le <strong>bilan réseau</strong> dit ce qui pourrait gêner (VPN actif, réseau marqué « public », pare-feu). <strong>Essai avec un téléphone</strong> confirme qu’un vrai téléphone a bien atteint la table.</p>
+            <p>Sous le QR, le <strong>bilan réseau</strong> dit ce qui pourrait gêner (VPN actif, réseau marqué « public », pare-feu). <strong>Tester avec mon téléphone</strong> confirme qu’un vrai téléphone a bien atteint la table.</p>
             <p>Sur un <strong>wifi public</strong> (hôtel, école, bar, médiathèque), cochez <strong>Code de la table aussi sur le wifi</strong> : un inconnu du même réseau ne peut plus rejoindre la table. Le QR code contient le code, les joueurs qui le scannent n’ont rien à taper ; les autres le saisissent sur l’écran d’accueil.</p>
           </article>
           <article>
@@ -87,7 +87,7 @@
           </article>
           <article>
             <h3>Jouer à distance (Pro)</h3>
-            <p>Onglet Joueurs › Jouer à distance passe par Tailscale : les joueurs éloignés reçoivent une adresse et un <strong>code de table</strong>. Le MJ garde la main : le code se change à tout moment.</p>
+            <p>Onglet Joueurs › Jouer à distance passe par Tailscale : les joueurs éloignés reçoivent une adresse et un <strong>code de table</strong>. Le MJ garde la main : <strong>Changer le code de la table</strong> (onglet Joueurs) en fait un nouveau, si l’ancien a été vu ou partagé par erreur ; les joueurs déjà connectés restent.</p>
           </article>
           <article>
             <h3>Le carnet du MJ : préparer sur son téléphone, sans PC</h3>
@@ -227,7 +227,7 @@
           <h2>Mener la séance</h2>
           <article>
             <h3>La Table</h3>
-            <p><strong>Table</strong> réunit tout : l’étape du scénario à lire (<strong>Jouer l’étape</strong> déclenche scène, carte, son et rencontre), la carte ou le combat, les héros et les dés. Un toucher sur un héros ouvre sa fiche.</p>
+            <p><strong>Table</strong> réunit tout : l’étape du scénario à lire (<strong>Jouer l’étape</strong> révèle la scène, montre la carte et lance le son ; la rencontre et le document ont leurs propres boutons, à lancer quand vous le décidez), la carte ou le combat, les héros et les dés. Un toucher sur un héros ouvre sa fiche.</p>
           </article>
           <article>
             <h3>Le combat</h3>
@@ -255,7 +255,7 @@
           </article>
           <article>
             <h3>Fin de séance</h3>
-            <p><strong>Campagne › Séance</strong> montre le <strong>bilan</strong> (héros de la séance, 20 naturels, dégâts, chutes, monstres vaincus) : <strong>Envoyer le bilan</strong> le montre aux joueurs, <strong>Nouvelle séance</strong> l’inscrit à la chronique et remet les compteurs à zéro.</p>
+            <p><strong>Campagne › Séance</strong> montre le <strong>bilan</strong> (héros de la séance, 20 naturels, dégâts, chutes, monstres vaincus) : dans l’ordre de la fin de partie : <strong>Compte rendu</strong>, <strong>Envoyer le bilan</strong> aux joueurs, <strong>Clore la séance</strong> (l’inscrit à la chronique et remet les compteurs à zéro ; prévient si le compte rendu n’a pas été gardé, et « Annuler » la rouvre), puis <strong>Préparer la prochaine séance</strong>.</p>
           </article>
         </section>
         <section class="guide-chapter" id="securite">
@@ -384,7 +384,7 @@
           </article>
           <article>
             <h3>Si la connexion coupe</h3>
-            <p>Un nouvel appareil (autre téléphone, navigateur effacé) : entrez le même prénom ; le MJ confirme d’un toucher que c’est bien vous, puis vous retrouvez votre héros. Le téléphone se reconnecte seul au réveil ; ce que vous avez fait entre-temps part au retour. Si la table ne répond plus, votre fiche reste consultable hors connexion. L’adresse a changé ? Rescannez le QR code.</p>
+            <p>Un nouvel appareil (autre téléphone, navigateur effacé) : entrez le même prénom ; le MJ confirme d’un toucher que c’est bien vous, puis vous retrouvez votre héros. Le téléphone se reconnecte seul au réveil ; ce que vous avez fait entre-temps part au retour. Si la table ne répond plus pendant la partie, la page montre votre fiche hors connexion ; entre deux séances (PC du MJ éteint), gardez-la avec <strong>Exporter</strong> depuis la fiche. L’adresse a changé ? Rescannez le QR code, retapez votre prénom : le MJ confirme, d’un geste pour tout le monde. Un onglet ouvert pendant une coupure de wifi attend le retour du réseau au lieu d’afficher une erreur.</p>
           </article>
         </section>
         <section class="guide-chapter" id="j-heros">

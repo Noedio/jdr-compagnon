@@ -6,15 +6,19 @@ window.JDR_SITE = {
   "repo": "jdr-compagnon",
   "supportEmail": "services@noedio.fr",
   "requestUrl": "",
-  "version": "3.14.0",
+  "version": "3.15.0",
   "news": [
-    "Copie dans le nuage plus légère : les données chaque jour, les images et sons un par un (seulement les nouveaux), jamais pendant une partie ; sur un nouveau PC, « Restaurer depuis… » remet toute la table.",
-    "Copies de sécurité : celles faites avant une restauration, une remise à zéro ou un import ont leur propre lot et ne chassent plus les copies quotidiennes.",
-    "Médiathèque : une image ou un son supprimés partent dans la corbeille (90 jours), puisqu’une autre campagne peut s’en servir.",
-    "Combat : « tour suivant » touché au même moment par un joueur et le MJ ne saute plus personne.",
-    "Carnet : une note modifiée sur deux appareils à la fois n’écrase plus l’autre version, gardée à côté.",
-    "Fiabilité : un partage ou un combat abîmés ne bloquent plus la table ; écritures réessayées quand l’antivirus tient un fichier ; horloge du PC avancée par erreur corrigée en ligne.",
-    "Correction : un joueur peut joindre une photo à un retour (elle était refusée, trop lourde pour un message de téléphone).",
-    "Nouvelle adresse du support : services@noedio.fr."
+    "Fin de séance dans l’ordre : compte rendu, bilan, clôture (qui prévient si le compte rendu n’a pas été gardé, et s’annule), puis préparation de la séance suivante, au bon numéro.",
+    "« Lancer le combat » s’annule d’un seul geste, pions compris ; seuls les héros des joueurs présents entrent au combat.",
+    "Écran de table : il suit la télé qu’on branche ou débranche, le même bouton le ferme, et un refus s’affiche au lieu d’une attente sans fin.",
+    "Changer le code de la table (onglet Joueurs), si l’ancien a été vu ou partagé par erreur.",
+    "Carte X et pause : chez le MJ, le signal reste affiché jusqu’à « Compris ».",
+    "Une mise à jour ne redémarre plus l’application en pleine partie sans confirmation.",
+    "Une note, une scène, un document ou un compte rendu en cours ne se perdent plus d’un toucher à côté de la fenêtre.",
+    "Rechercher partout : une carte, une aventure ou une étape s’ouvrent même si l’onglet était déjà ouvert.",
+    "Joueur sur un nouvel appareil à confirmer : pastille sur l’onglet Joueurs. Second écran du MJ refusé : la raison s’affiche.",
+    "Boutons plus faciles à toucher pendant le combat ; copie sans repli corrigée sur un second écran.",
+    "Téléphones : un onglet ouvert pendant une coupure de wifi attend le retour du réseau au lieu d’afficher une page d’erreur ; une erreur pendant une reconnexion n’immobilise plus la partie.",
+    "Changement d’adresse du PC : « Tout confirmer » d’un geste quand tous les joueurs reviennent, et le conseil pour la rendre fixe ; un iPhone qui a effacé ses données retrouve sa place (même prénom)."
   ]
 };
