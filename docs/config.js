@@ -6,14 +6,19 @@ window.JDR_SITE = {
   "repo": "jdr-compagnon",
   "supportEmail": "services@noedio.fr",
   "requestUrl": "",
-  "version": "3.16.1",
+  "version": "3.17.0",
   "news": [
-    "Un joueur retiré de la table (onglet Joueurs) est vraiment déconnecté : son téléphone ne voit plus rien de la partie.",
-    "Écran du MJ réservé à la fenêtre de l’application : un accès ouvert par un tunnel internet vers ce PC demande le code MJ.",
-    "Restaurer une sauvegarde complète marche jusqu’à 4 Go (médias compris), sans charger le fichier en mémoire : changer de PC ne bute plus sur les grosses médiathèques.",
-    "La copie de sécurité quotidienne attend la fin de la partie (sauf après trois jours sans copie).",
-    "Enregistrement de la séance : avant de démarrer, le MJ confirme que toutes les personnes présentes acceptent, même celles sans téléphone.",
-    "Retours à l’éditeur : les informations techniques ne sont jointes que si on coche la case.",
-    "Table sur une Surface en fenêtre (1180 px) : dés, mode et bouton « Lancer » ne sont plus coupés, ni les boutons de l’histoire."
+    "Premier lancement : une seule carte « Jouer une partie d’essai (5 min) », qui ouvre la Table et le QR code. Préparation : deux indispensables (lieu, invitation), le reste facultatif.",
+    "Nouvelle campagne en règles 2024 (les campagnes existantes gardent leurs règles).",
+    "Un téléphone qui scanne le QR code arrive directement sur le prénom.",
+    "Édition Pro signalée sur la bibliothèque d’aventures ; le site dit ce qui est gratuit.",
+    "Combat vide : « Ajouter » ou une rencontre préparée. Dés repliés hors du combat ; date du monde sur la Table, le Combat et la Campagne seulement.",
+    "Son en attente : un petit haut-parleur barré au lieu d’un gros bouton.",
+    "Écran de table en attente : il dit quoi faire sur l’écran du MJ.",
+    "Anglais marqué « bêta » (menus seulement) ; essai du clavier rangé dans Réglages › Aide.",
+    "Nouvelle installation : le code de la table est exigé aussi sur le wifi (le QR code le contient, rien à taper en le scannant) ; à la maison, on peut le décocher.",
+    "Retirer un joueur connecté l’empêche de revenir, même sous un autre prénom, jusqu’au redémarrage ; l’application propose aussi de changer le code de la table.",
+    "Nouveau code MJ (onglet Joueurs, sur le PC de la partie) : les autres écrans du MJ sont déconnectés.",
+    "Fiche : des notes privées, que seuls le joueur et le MJ voient."
   ]
 };

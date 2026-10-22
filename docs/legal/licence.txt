@@ -23,6 +23,11 @@ Sauf dans les cas permis par la loi (article L.122-6-1 du Code de la propriété
 vous vous interdisez de : copier le Logiciel pour le distribuer, le louer, le revendre ; le
 modifier, le décompiler ou contourner la vérification des licences ; retirer les mentions de
 droits d'auteur et de licences.
+Ces restrictions ne portent que sur le code et les contenus propres de l'Éditeur. Elles ne
+s'appliquent ni au matériel du System Reference Document, que chacun peut copier, modifier et
+réutiliser selon sa licence Creative Commons Attribution 4.0, ni aux composants libres livrés avec le
+Logiciel : leurs propres licences priment (par exemple, la licence LGPL de la bibliothèque
+« ffmpeg » incluse avec Electron permet de la modifier et de la remplacer pour un usage personnel).
 
 4. CONTENUS DE TIERS ET DE L'UTILISATEUR
 Le Logiciel contient des éléments du System Reference Document 5.2.1 (texte officiel en français)
@@ -31,12 +36,20 @@ ainsi que des composants libres dont les licences sont listées dans « Réglage
 assistance › À propos ». Le Logiciel est compatible avec la cinquième édition ; il n'est ni affilié
 à l'éditeur de ces documents, ni approuvé par lui.
 Vous restez seul responsable des contenus que vous importez (images, sons, modèles 3D, textes) et
-de leur licence.
+de leur licence. N'importez que vos propres créations ou des contenus dont la licence le permet.
 
 5. DONNÉES PERSONNELLES
 Vos campagnes, fiches et fichiers restent sur votre ordinateur. Les échanges avec internet sont
 décrits dans la politique de confidentialité, consultable dans le Logiciel
 (« Réglages › Aide et assistance »).
+
+5 bis. ASSISTANT IA (FACULTATIF)
+L'assistant n'agit que si vous le réglez, avec le service d'intelligence artificielle de votre
+choix (votre clé, ou un modèle installé sur votre ordinateur). Ce service est un tiers : il traite
+vos demandes selon ses propres conditions, et ses éventuels coûts d'utilisation sont à votre charge.
+Les textes produits sont générés automatiquement, marqués « généré par IA », et fournis sans
+garantie d'exactitude : relisez-les avant de vous en servir. L'Éditeur n'est pas responsable du
+contenu qu'un service tiers produit.
 
 6. MISES À JOUR ET ASSISTANCE
 Le Logiciel peut rechercher et installer des mises à jour (réglage modifiable). L'Éditeur peut
@@ -54,13 +67,21 @@ garantie légale de conformité des contenus et services numériques (articles L
 suivants du Code de la consommation).
 
 8. RÉSILIATION
-Ce contrat prend fin automatiquement si vous en violez les termes ; vous devez alors cesser
-d'utiliser le Logiciel. Vous pouvez y mettre fin à tout moment en désinstallant le Logiciel.
+En cas de manquement à ce contrat, l'Éditeur peut y mettre fin après une mise en demeure restée
+sans effet pendant quinze jours, sauf fraude manifeste (clé publiée, revendue ou contrefaite) où la
+désactivation est immédiate ; vous devez alors cesser d'utiliser l'édition concernée. Vos campagnes
+restent à vous et lisibles dans l'édition gratuite. Vous pouvez mettre fin au contrat à tout moment
+en désinstallant le Logiciel.
 
 9. DROIT APPLICABLE
 Le présent contrat est soumis au droit français. En cas de litige, et après une tentative de
 règlement amiable, les tribunaux compétents sont ceux désignés par la loi. Le Logiciel est
-aujourd'hui distribué gratuitement ; s'il venait à être vendu, les coordonnées d'un médiateur de la
+aujourd'hui distribué gratuitement ; s'il venait à être vendu, la vente serait régie par des
+conditions générales de vente jointes à la commande, et les coordonnées d'un médiateur de la
 consommation, que le consommateur peut saisir gratuitement, seraient indiquées ici.
 
-Version du contrat : 1.1 — octobre 2026.
+10. MINEURS
+Un mineur utilise le Logiciel avec l'accord de ses parents ; l'achat d'une édition payante est
+réservé aux personnes majeures ou fait par un parent.
+
+Version du contrat : 1.2 — octobre 2026.

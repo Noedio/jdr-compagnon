@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Accessibilité · JDR Compagnon</title>
+    <meta
+      name="description"
+      content="Ce que JDR Compagnon permet déjà au clavier, au lecteur d’écran et sans distinguer les couleurs, ses limites connues, et qui contacter."
+    />
+    <meta name="theme-color" content="#0a0812" />
+    <link rel="icon" href="images/favicon-64.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="canonical" href="https://noedio.github.io/jdr-compagnon/accessibilite.html" />
+  </head>
+  <body>
+    <header class="top">
+      <div class="wrap">
+        <a class="brand" href="./"><img src="images/icon-192.png" alt="" width="34" height="34" /> JDR Compagnon</a>
+        <nav aria-label="Pages">
+          <a href="./">Accueil</a>
+          <a href="guide.html">Guide</a>
+          <a href="nouveautes.html">Nouveautés</a>
+          <a href="confidentialite.html">Confidentialité</a>
+        </nav>
+        <a class="btn btn-gold" href="./#telecharger">Télécharger</a>
+      </div>
+    </header>
+    <main class="doc">
+      <div class="wrap">
+        <h1>Accessibilité</h1>
+        <p class="lead">
+          JDR Compagnon vise le niveau AA des règles pour l’accessibilité des contenus web (WCAG 2.2). Cette page dit où en est
+          l’application, ce qui reste difficile, et comment nous signaler un obstacle.
+        </p>
+        <p>
+          Il ne s’agit pas d’une déclaration de conformité au RGAA : l’application n’a pas fait l’objet d’un audit par un organisme
+          extérieur. L’état ci-dessous vient de nos propres mesures (contrastes calculés, parcours automatiques dans le navigateur à 1280,
+          1180 et 390 points de large) et de la relecture des écrans.
+        </p>
+
+        <h2>Ce qui est en place</h2>
+        <ul>
+          <li>
+            <strong>Clavier.</strong> Navigation, fenêtres, formulaires et recherche (Ctrl+K) se font au clavier, avec un contour doré bien
+            visible sur l’élément actif. Un lien « Aller au contenu », premier arrêt de la tabulation, évite de traverser la navigation à
+            chaque écran.
+          </li>
+          <li>
+            <strong>Carte au clavier.</strong> La carte prend le focus : les flèches déplacent le pion choisi d’une case, Entrée valide,
+            Échap annule ; une liste des pions permet de choisir celui à déplacer. Sur le téléphone, toucher son pion puis la case visée le
+            déplace sans glisser le doigt.
+          </li>
+          <li>
+            <strong>Lecteur d’écran.</strong> Chaque écran a son titre (« Table · nom de la campagne · JDR Compagnon ») ; les champs ont un
+            nom ; les jets de dés, le début de votre tour et les notifications sont annoncés ; la carte est résumée (votre pion, sa case,
+            les autres pions visibles).
+          </li>
+          <li>
+            <strong>Couleurs.</strong> Le texte d’aide garde un contraste d’au moins 4,5:1 sur les fonds de l’application, dans les thèmes
+            Nuit, Lumineux et Contraste élevé (ce dernier choisi tout seul quand le système le demande). La couleur n’est jamais seule à
+            distinguer les pions : chacun porte une initiale ou un numéro. Un réglage « Couleurs pour daltoniens » change les teintes et
+            écrit les points de vie en chiffres.
+          </li>
+          <li>
+            <strong>Lecture et temps.</strong> Taille du texte réglable jusqu’à 130 %, zoom du navigateur autorisé, animations coupées quand
+            le système demande moins de mouvement. Les notifications restent affichées tant que le pointeur ou le focus est dessus, deux
+            fois plus longtemps quand elles proposent une action, et les dernières se relisent dans les Réglages.
+          </li>
+        </ul>
+
+        <h2>Limites connues</h2>
+        <ul>
+          <li>
+            <strong>Outils de la carte du MJ.</strong> Mesurer, dessiner, peindre le brouillard, construire (murs, décors, terrain) et poser
+            une zone de sort se font encore au pointeur (souris, doigt ou stylet). Le déplacement des pions, lui, se fait au clavier.
+          </li>
+          <li>
+            <strong>Vue 3D et dés 3D.</strong> La vue 3D de la carte se pilote au pointeur ; les dés 3D sont décoratifs (le résultat est
+            toujours écrit et annoncé).
+          </li>
+          <li>
+            <strong>Erreurs de saisie.</strong> Certaines erreurs sont encore signalées par une bulle plutôt que sous le champ concerné.
+          </li>
+          <li>
+            <strong>Langue.</strong> En mode anglais, les écrans pas encore traduits restent en français sans être marqués comme tels pour
+            le lecteur d’écran.
+          </li>
+          <li>
+            <strong>Essais.</strong> Une soirée complète avec NVDA (écran du MJ) et VoiceOver (iPhone) reste à faire : des obstacles peuvent
+            nous avoir échappé.
+          </li>
+        </ul>
+
+        <h2>Nous signaler un obstacle</h2>
+        <p>
+          Une fonction que vous ne pouvez pas utiliser, un texte illisible, un bouton que votre lecteur d’écran ne nomme pas ? Écrivez à
+          <a href="mailto:services@noedio.fr">services@noedio.fr</a> en précisant l’écran, l’appareil et, si vous en utilisez une, l’aide
+          technique (lecteur d’écran, zoom, commande vocale). Depuis l’application, « Signaler un problème », dans les Réglages, envoie
+          aussi votre message. Nous répondons dans la semaine et proposons, en attendant une correction, une autre façon d’arriver au même
+          résultat.
+        </p>
+        <p><small>Page mise à jour le 22 octobre 2026.</small></p>
+      </div>
+    </main>
+    <footer>
+      <div class="wrap">
+        <div class="links">
+          <a href="./">Accueil</a>
+          <a href="guide.html">Guide</a>
+          <a href="nouveautes.html">Nouveautés</a>
+          <a href="licence.html">Licence</a>
+          <a href="confidentialite.html">Confidentialité</a>
+          <a href="mentions-legales.html">Mentions légales</a>
+          <a href="accessibilite.html" aria-current="page">Accessibilité</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

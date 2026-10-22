@@ -1,0 +1,35 @@
+JDR Compagnon — Conditions de contribution au catalogue de la communauté
+Version 1.0
+
+Ces conditions s'appliquent à tout fichier .jdr proposé au catalogue de la communauté (bouton
+« Proposer au catalogue » de la fenêtre de partage). Elles ne concernent pas un fichier envoyé
+directement à un ami.
+
+1. Droits garantis
+En proposant un contenu, vous garantissez en être l'auteur ou disposer des droits nécessaires pour le
+diffuser : aucun texte, carte, illustration ou nom tiré d'un livre, d'une boîte ou d'un site du
+commerce, sauf sous une licence libre qui le permet (SRD 5.2.1 sous CC BY 4.0, contenu sous OGL 1.0a,
+images du domaine public ou sous licence Creative Commons compatible). Si vous êtes mineur, vous
+déclarez avoir l'accord d'un parent ou du titulaire de l'autorité parentale.
+
+2. Licence accordée
+Vous restez l'auteur. Vous autorisez l'éditeur à diffuser gratuitement le fichier dans le catalogue,
+sous la licence choisie dans la fenêtre de partage (CC BY 4.0, CC BY-SA 4.0, CC0…), avec votre nom.
+Le contenu proposé n'est jamais vendu ni inclus dans une offre payante.
+
+3. Contenu sous OGL 1.0a
+Un contenu qui reprend du matériel sous Open Game License 1.0a doit joindre le texte de cette licence
+et sa section 15 (mentions de droits) complétée.
+
+4. Relecture, refus et retrait
+L'éditeur relit chaque proposition (images, licence, absence de contenu protégé ou illicite) et peut
+la refuser sans avoir à se justifier. Il retire un contenu du catalogue :
+- à la demande de son auteur ;
+- sur signalement d'un contenu protégé, illicite ou d'une licence incorrecte.
+Signalement et demande de retrait : par courriel à l'adresse du support indiquée dans l'application
+(fenêtre d'assistance, « Envoyer au support ») et sur le site. L'éditeur répond sous 7 jours et retire
+le contenu dès que le signalement paraît fondé.
+
+5. Données
+Seuls le fichier, le titre, le nom d'auteur, la licence et la description saisis sont publiés. Le
+courriel qui accompagne la proposition n'est pas publié (voir confidentialite.txt).

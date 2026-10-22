@@ -2,7 +2,7 @@
 // qu'elle s'ouvre hors connexion, sert les images de la médiathèque depuis la base du téléphone
 // (/api/images/<id>) et répond à la place du PC pour ce qui en a besoin (assistant IA, bibliothèque…).
 const BASE = new URL('./', self.registration.scope).pathname; // ex. /jdr-compagnon/app/
-const CACHE = 'jdr-carnet-3.16.1-a2ec9328d8';
+const CACHE = 'jdr-carnet-3.17.0-5869d410ad';
 
 self.addEventListener('install', (event) => {
   self.skipWaiting();

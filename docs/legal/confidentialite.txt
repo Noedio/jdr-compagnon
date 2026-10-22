@@ -9,6 +9,9 @@ fonctionnement et copies de sécurité sont enregistrés dans le dossier de donn
 (%APPDATA%\JDR Compagnon). Les téléphones des joueurs se connectent directement à votre ordinateur
 par le wifi ; ils ne gardent que leur identifiant de joueur (dans le navigateur, et dans un cookie
 réservé au PC de la table, pour retrouver sa place) et leurs préférences d'affichage.
+Les notes privées des joueurs (fiche, carnet) et leurs chuchotements sont gardés sur le PC du MJ,
+avec la campagne, dans ses copies de sécurité et dans le dossier synchronisé s'il en règle un ; le MJ
+ne voit dans l'application que les notes que le joueur partage avec lui.
 Le maître du jeu est responsable des informations qu'il saisit sur ses joueurs.
 
 CE QUI PASSE PAR INTERNET
@@ -21,12 +24,13 @@ CE QUI PASSE PAR INTERNET
   la connexion, comme pour toute page web. Affichage des annonces désactivable : Réglages › Aide
   et assistance.
 - Activation de l'édition Pro : quand vous activez une licence, l'application le signale une
-  seule fois à l'Éditeur (feuille de calcul Google de l'Éditeur, via Google Apps Script) :
+  seule fois à l'Éditeur (feuille de calcul Google de l'Éditeur via Google Apps Script, ou son relais
+  Cloudflare Workers) :
   numéro de la licence, version de l'application, date, et un identifiant d'installation tiré au
   hasard (il ne dit rien de vous ni de votre ordinateur). Ni nom, ni adresse, ni contenu de la
   table. Google voit l'adresse IP de la connexion. Sans connexion, le signalement attend la
   suivante. Il permet à l'Éditeur de savoir quelles licences sont utilisées et sur combien
-  d'installations.
+  d'installations. La case « Ne pas signaler cette activation », sur l'écran d'activation, l'empêche.
 - Retours (problème, idée), seulement quand vous en écrivez un : le titre et le texte que vous
   saisissez, qui l'a écrit (MJ ou joueur, jamais son nom), la version, l'édition, le numéro de
   licence (édition Pro), l'identifiant d'installation tiré au hasard ; si la case « informations
@@ -46,7 +50,8 @@ CE QUI PASSE PAR INTERNET
   (Ollama, LM Studio : rien ne quitte alors votre ordinateur). Chaque demande envoie votre texte et
   des extraits de la campagne : nom de la campagne, héros (nom, espèce, classe, niveau), scène,
   notes du carnet qui en parlent, chronique récente. Jamais les noms ou appareils des joueurs, leurs
-  messages privés, leurs carnets, ni les codes et clés. Le service choisi les traite selon ses
+  messages privés, leurs carnets, ni les codes et clés. En mode « Mineurs à la table » (Réglages ›
+  Table), ni les héros ni la chronique ne sont envoyés. Le service choisi les traite selon ses
   propres conditions. Les textes produits sont marqués « généré par IA ». La clé reste sur votre
   ordinateur.
 - Enregistrement de la séance (édition Pro, facultatif) : le micro du PC du MJ n'enregistre
@@ -62,10 +67,18 @@ CE QUI PASSE PAR INTERNET
 - Jeu à distance (édition Pro, facultatif) : passe par Tailscale, selon ses conditions.
 
 QUI TRAITE CES INFORMATIONS, ET OÙ
-L'Éditeur (voir « Vos droits ») est responsable des informations qu'il reçoit : activations,
-retours, échanges avec le support, licences. Il s'appuie sur trois prestataires, situés aux
-États-Unis : GitHub, Inc. (mises à jour, annonces, tickets des retours), Cloudflare, Inc. (relais des
-retours) et Google LLC (feuille des activations et des retours des anciennes versions). Ces
+Responsable du traitement : l'Éditeur, Yoann, à titre personnel et non commercial, joignable à
+services@noedio.fr (si une structure est créée pour vendre l'application, son nom, son adresse et son
+numéro SIRET figureront ici). Il est responsable des informations qu'il reçoit : activations,
+retours, échanges avec le support, licences. Il s'appuie sur des prestataires situés aux
+États-Unis : GitHub, Inc. (mises à jour, annonces, tickets des retours, et registre des licences
+— nom, adresse électronique, clé — sur une branche de son dépôt privé), Cloudflare, Inc. (relais des
+retours) et Google LLC (feuille des activations et des retours des anciennes versions). Les échanges
+avec le support passent par la messagerie de l'Éditeur (services@noedio.fr). Il n'y a pas de vente
+pour l'instant ; si l'édition Pro est vendue un jour, la plateforme de paiement traitera la commande
+et le paiement selon ses propres conditions et ne transmettra à l'Éditeur que le nom et l'adresse
+électronique nécessaires à la clé (cette politique la nommera). Le formulaire de demande du site, s'il est activé,
+transmet ce que vous y écrivez au prestataire indiqué sur le formulaire. Ces
 transferts hors de l'Union européenne sont encadrés par le cadre de protection des données UE –
 États-Unis (Data Privacy Framework), auquel ces sociétés adhèrent, et par leurs clauses
 contractuelles types. Les services que vous choisissez vous-même (assistant IA, dossier synchronisé,
@@ -89,12 +102,23 @@ COMBIEN DE TEMPS
 MINEURS
 L'application ne demande ni âge ni identité. Un joueur, même mineur, peut envoyer un retour : il
 n'est jamais nominatif, mais ne joignez pas de photo d'une personne. L'enregistrement de la séance
-demande l'accord d'un parent pour un mineur (voir plus haut).
+demande l'accord d'un parent pour un mineur (voir plus haut). Le MJ règle ce que ses joueurs
+envoient à l'Éditeur (retours coupés, texte seul ou avec images ; texte seul par défaut) et peut
+activer « Mineurs à la table » : ni enregistrement, ni images dans les retours des joueurs, ni
+contenus des joueurs envoyés à l'assistant IA.
+
+ASSOCIATIONS, CLUBS, ÉCOLES
+Quand l'application sert dans une structure (association, club, médiathèque, établissement), c'est
+cette structure, et non l'Éditeur, qui est responsable des informations saisies sur ses joueurs :
+elle informe les participants (et les parents des mineurs) et règle les options ci-dessus.
 
 RAPPORT DE DIAGNOSTIC
 Le bouton « Créer un rapport de diagnostic » enregistre un fichier sur votre ordinateur : version,
-système, comptes (nombre de fiches, de cartes…), journaux de fonctionnement des derniers jours. Il
-ne contient ni la campagne, ni les fiches, ni les codes, clés ou jetons. Il n'est envoyé que si
+système, écran et nom de la carte graphique, comptes (nombre de fiches, de cartes…), journaux de
+fonctionnement des derniers jours, et la liste des plantages. Il ne contient ni la campagne, ni les
+fiches, ni les codes, clés ou jetons. Le dernier rapport de plantage (un morceau de la mémoire de
+l'application, qui peut contenir des textes de la campagne) n'y est joint que si vous cochez la case
+prévue. Il n'est envoyé que si
 vous le transmettez vous-même au support ; il est alors utilisé uniquement pour résoudre votre
 problème, puis supprimé au plus tard trois mois après la clôture de la demande.
 
@@ -109,4 +133,4 @@ portabilité des informations que l'Éditeur détient (licence, activations, ret
 support) : écrivez à services@noedio.fr, avec le numéro de votre licence ou de votre retour si vous
 l'avez ; réponse sous un mois. Vous pouvez aussi saisir la CNIL (www.cnil.fr).
 
-Version : 1.2 — octobre 2026.
+Version : 1.3 — octobre 2026.
